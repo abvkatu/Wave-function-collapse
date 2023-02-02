@@ -88,7 +88,7 @@ const reglas = [
 let opcionesI = [];
 function preload() {
   for (let i = 0; i < NA; i++) {
-    azulejos[i] = loadImage(`wfc/tile${i}.png`);
+    azulejos[i] = loadImage(`Azulejos/tile${i}.png`);
   }
 }
 function setup() {
@@ -193,5 +193,5 @@ function cambiarEntropia(_celda, _regla, _opuesta) {
     }
   }
   _celda.opciones = nuevasOpciones;
- print(nuevasOpciones);
+  print(nuevasOpciones);
 }
